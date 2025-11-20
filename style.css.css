@@ -1,0 +1,170 @@
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* BODY */
+body {
+  background: #0b0b0b;
+  color: white;
+}
+
+/* HEADER */
+header {
+  background: #0d0d0d;
+  padding: 20px 40px;
+  border-bottom: 1px solid #00ff9d50;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.info ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.info ul li a {
+  text-decoration: none;
+  color: #e9e9e9;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.info ul li a:hover {
+  color: #00ff9d;
+}
+
+/* MAIN SECTIONS */
+.section-box {
+  background: #0d0d0d;
+  width: 85%;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 15px;
+  border: 1px solid #00ff9d3a;
+  box-shadow: 0 0 25px #00ff9d1f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.section-text {
+  width: 60%;
+}
+
+.section-box h2 {
+  color: #00ff9d;
+  margin-bottom: 15px;
+}
+
+.section-image img {
+  width: 220px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 500px;
+
+  
+}
+
+/* PROJECTS GRID */
+.projects-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  
+}
+
+/* PROJECT CARDS */
+.project-card {
+  background: #0b0b0b;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #00ff9d3a;
+  
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px #00ff9d50;
+}
+
+.project-card img {
+  width: 90%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.project-card h3 {
+  color: #00ff9d;
+  font-size: 20px;
+}
+
+.project-card p {
+  margin-top: 8px;
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+/* FORM */
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  background: #0b0b0b;
+  border: 1px solid #00ff9d40;
+  border-radius: 5px;
+  color: white;
+}
+
+form textarea {
+  height: 120px;
+}
+
+form button {
+  margin-top: 10px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  background: #00ff9d;
+  color: #0b0b0b;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #00ffaa;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background: #0d0d0d;
+  color: #00ff9d;
+}
+

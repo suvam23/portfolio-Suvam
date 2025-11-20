@@ -1,25 +1,106 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<header>
-		<nav>
-			<div class="name">Suvam Pant</div>
-			<div class="info">
-				<ul>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Projects</a></li>
-					<li><a href="#">Contacts</a></li>
-				</ul>
-			</div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
 
-		</nav>
-	</header>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
 
-</body>
+    <link rel="stylesheet" type="text/css" href="style.css.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav>
+        <div class="name">Suvam Pant</div>
+        <div class="info">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section-box">
+      <div class="section-text">
+        <h2>About Me</h2>
+        <p>
+          Hello! I’m Suvam, Currently studying Bsc(Hons) in Computer Science at Herald College Kathmandu. Also i am a beginner web developer. I enjoy creating clean and
+          simple websites using HTML and CSS.
+        </p>
+      </div>
+
+      <div class="section-image">
+        <img src="D:\Portfolio-Suvam\images\myimage.jpeg" alt="My Photo" />
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section-box">
+      <div class="section-text">
+        <h2>My Projects</h2>
+        <p>Here are some of the projects I have worked on.</p>
+
+        <div class="projects-grid">
+          <!-- PROJECT 1 -->
+          <div class="project-card">
+            <img src="D:\Portfolio-Suvam\images\weather.png" alt="Project 1" />
+            <h3>Weather App</h3>
+            <p>
+              A responsive weather app built with HTML, CSS, JS, and
+              OpenWeatherMap API.
+            </p>
+          </div>
+
+          <!-- PROJECT 2 -->
+          <div class="project-card">
+            <img src="D:\Portfolio-Suvam\images\leave.png" alt="Project 2" />
+            <h3>Leave Management UI</h3>
+            <p>
+              A modern UI/UX design for college leave management created in
+              Figma.
+            </p>
+          </div>
+
+          <!-- PROJECT 3 -->
+          <div class="project-card">
+            <img src="D:\Portfolio-Suvam\images\app.png" alt="Project 3" />
+            <h3>Water Cycle Game</h3>
+            <p>
+              An educational Unity game showing the stages of the water cycle.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section-box">
+      <div class="section-text">
+        <h2>Contact Me</h2>
+
+        <form>
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your Email" />
+          <textarea placeholder="Message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2025 Suvam Pant • All Rights Reserved</p>
+    </footer>
+  </body>
 </html>
